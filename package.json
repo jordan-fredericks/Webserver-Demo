@@ -1,0 +1,14 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "Demo Webserver",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan Fredericks",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
