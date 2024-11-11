@@ -7,15 +7,18 @@ GET http://localhost:3000/api/v1
 ### Get random pokemon
 GET {{url}}/
 
-### Get pokemon by id
+### Get pokemon by number
 GET {{url}}/pokemon/2
+
+### Get pokemon by id
+GET {{url}}/pokemon/id/67325aca95abca9201a6d455
 
 ### add a pokemon
 POST {{url}}/pokemon/add
 Content-Type: application/json
 
 {
-    "number": 10,
-    "name": "Caterpie",
-    "types": [ "Bug" ]
+    "number": 5,
+    "name": "Charmeleon",
+    "types": [ "Fire" ]
 }
